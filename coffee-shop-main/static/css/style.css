@@ -1,23 +1,29 @@
+/* Nhập font Roboto từ Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Thiết lập HTML chiếm toàn bộ chiều rộng và chiều cao */
 html {
     width: 100%;
     height: 100%;
 }
+/* Lớp cho text với màu sô cô la và bóng chữ */
 .text {
    color: chocolate;
    text-shadow: 1px 1px 2px black;
 
 }
+/* Thiết lập iframe chiếm 60% chiều rộng */
 iframe {
     width:60%;
     height:100%;
 }
+/* Lớp cho thanh cà phê chiếm 70% chiều rộng */
 .coffee-bar {
     width:70%; 
     height:100%;
 }
 
+/* Thiết lập body với hình nền cà phê, không lặp lại, cố định, sử dụng font Roboto */
 body {
     background: url('https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/jon-tyson-pEGyLHAPfVw-unsplash_oxpdrc.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -26,7 +32,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* from Bulma */
+/* Lớp icon (lấy từ Bulma) - căn giữa icon 1.5rem */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -43,17 +49,20 @@ body {
     width: fit-content;
 }
 
+/* Nút "Mua ngay" - nền đen, chữ trắng, chiều rộng tối thiểu 260px */
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
 }
 
+/* Lớp nút đen */
 .btn-black {
     background: black;
     color: white;
 }
 
+/* Hiệu ứng khi di chuột qua hoặc click nút - chuyển nền thành #222 */
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -75,12 +84,14 @@ body {
 .bg-black {
     background: #000 !important;
 }
+/* Nút viền đen - nền trắng, chữ đen, viền đen */
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important; /* dùng !important để ghi đè màu của thẻ <a> */
     border: 1px solid black;
 }
 
+/* Lớp overlay - nền trắng cố định, z-index âm để hiển thị phía sau */
 .overlay {
     height: 100%;
     width: 100%;
@@ -91,8 +102,7 @@ body {
     z-index: -1;
 }
 
-/* Back to top button */
-
+/* Nút "Lên đầu trang" - vuông 42px, cố định ở dưới phải */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -101,18 +111,19 @@ body {
     right: 10px;
 }
 
+/* Các lớp có con trỏ chuột như nút */
 .btt-link,
 .remove-item,
 .update-link  {
     cursor: pointer;
 }
 
+/* Xóa decoration từ liên kết và thiết lập màu đen */
 a {
     text-decoration: none;
     color: black;
 }
-/* Toasts */
-
+/* Thông báo (Toast) - vị trí cố định phía trên phải, z-index rất cao */
 .message-container {
     position: fixed;
     top: 72px;
@@ -127,14 +138,14 @@ a {
 .toast-capper {
     height: 10px;
 }
+/* Thông báo giỏ hàng - chiều cao 100px, cuộn dọc nếu cần */
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-/* Allauth form formatting */
-
+/* Định dạng biểu mẫu Allauth */
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
@@ -149,13 +160,15 @@ a {
     display: none;
 }
 
+/* Đặt màu cho placeholder của input */
 .allauth-form-inner-content input::placeholder {
     color: #aab7c4;
 }
 
+/* Định dạng nút và submit input */
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
+	/* Style nút - inline-block, font đậm, nền đen, border đen */
 	display: inline-block;
     font-weight: 400;
     color: #fff;
@@ -183,27 +196,31 @@ a {
     border-color: #222;
 }
 
+/* Liên kết trong biểu mẫu - màu xanh dương */
 .allauth-form-inner-content a {
-	color: #448f9b; /* text-info */
+	color: #448f9b; /* màu info */
 }
 
+/* Form đăng ký - chữ trắng, chiều cao 3rem */
 .signup {
     height: 3rem;
     color: white;
 }
+/* Nút đăng ký - chữ trắng, nền đen */
 .signupbutton {
     color: white;
     background-color: black;
 }
 
+/* Form inline - chiều rộng 100%, lề phải 130px */
 .form-inline {
     width:100%;
     margin-right: 130px;
     
 }
-/* -------------------------------- Media Queries */
+/* ============ MEDIA QUERIES - Responsive Design ============ */
 
-/* Slightly larger container on xl screens */
+/* Màn hình XL (1200px+) - container chiếm 80% chiều rộng */
 @media (min-width: 1200px) {
     .container {
       max-width: 80%;
@@ -264,7 +281,7 @@ a {
       color: #17a2b8; /* text-info */
   }
 
-/* fixed top navbar only on medium and up */
+/* Màn hình Medium+ (992px) - navbar cố định ở trên */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -275,7 +292,7 @@ a {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Màn hình Mobile (dưới 992px) - navbar collapse, thêm padding trên */
 @media (max-width: 991px) {
 
     .header-container {
@@ -324,7 +341,7 @@ a {
 
     
 }
-/* Remove white space and adds responsivness */
+/* Tablet (768px trở xuống) - xóa khoảng trắng, responsive */
 @media only screen and (max-width: 768px){
     html,
     body{
@@ -341,11 +358,11 @@ a {
         margin-left: 200px;
     }
     .btt-button {
-        display: none;
+        display: none; /* Ẩn nút lên đầu trên mobile */
     }
 
 }
-/* media queries for newsletter signup form */
+/* Điện thoại (580px trở xuống) - form newsletter responsive */
 @media only screen and (max-width: 580px){
 
     .signup1 {

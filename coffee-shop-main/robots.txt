@@ -1,6 +1,0 @@
-User-agent: * 
-Disallow: /accounts/
-Disallow: /bag/
-Disallow: /checkout/
-Disallow: /profile/
-Sitemap: https://coffee-shop2023.herokuapp.com/sitemap.xml

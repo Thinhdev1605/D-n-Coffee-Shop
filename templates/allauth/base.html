@@ -1,39 +1,49 @@
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="vi">
   <head>
-    <title>{% block head_title %}{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block head_title %}Cà Là Phê{% endblock %}</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
     {% block extra_head %}
     {% endblock %}
   </head>
   <body>
+    <div class="overlay"></div>
+
     {% block body %}
+      {% if messages %}
+      <div>
+        <strong>Thông báo:</strong>
+        <ul>
+          {% for message in messages %}
+          <li>{{message}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
 
-    {% if messages %}
-    <div>
-      <strong>Messages:</strong>
-      <ul>
-        {% for message in messages %}
-        <li>{{message}}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
+      <nav>
+        <strong>Menu:</strong>
+        <ul>
+          {% if user.is_authenticated %}
+          <li><a href="{% url 'account_email' %}">Đổi E-mail</a></li>
+          <li><a href="{% url 'account_logout' %}">Đăng xuất</a></li>
+          {% else %}
+          <li><a href="{% url 'account_login' %}">Đăng nhập</a></li>
+          <li><a href="{% url 'account_signup' %}">Đăng ký</a></li>
+          {% endif %}
+        </ul>
+      </nav>
 
-    <div>
-      <strong>Menu:</strong>
-      <ul>
-        {% if user.is_authenticated %}
-        <li><a href="{% url 'account_email' %}">Change E-mail</a></li>
-        <li><a href="{% url 'account_logout' %}">Sign Out</a></li>
-        {% else %}
-        <li><a href="{% url 'account_login' %}">Sign In</a></li>
-        <li><a href="{% url 'account_signup' %}">Sign Up</a></li>
-        {% endif %}
-      </ul>
-    </div>
-    {% block content %}
+      {% block content %}
+      {% endblock %}
+      
     {% endblock %}
-    {% endblock %}
+
     {% block extra_body %}
     {% endblock %}
   </body>

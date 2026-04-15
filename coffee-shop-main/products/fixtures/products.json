@@ -1,0 +1,188 @@
+[
+    {
+      "model": "products.category",
+      "pk": 1,
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans",
+        "image": ""
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 2,
+      "fields": {
+        "name": "Machines",
+        "friendly_name": "Machines",
+        "image": ""
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Lavazza Oro",
+        "description": "The Lavazza coffee beans are a blend of Arabica from Brazil, RainForest certified. Enjoy a strong coffee with gourmet notes of cereals and dried fruit. 1kg.",
+        "price": "170.000VND",
+        "image": "lavazza-oro.jpeg",
+        "image_url": null,
+        "rating": "3.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Intenso",
+        "description": "Intenso coffee beans consists of a blend of 80% Arabica and 20% Robusta (Colombia, Brazil, Guatemala, Costa Rica). For a very strong espresso with a good crema and notes of cocoa 1kg.",
+        "price": "150.000VND",
+        "image": "intenso-coffee.jpeg",
+        "image_url": null,
+        "rating": "4.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Zoegas Hazienda",
+        "description": "The hazienda coffee bean is a blend of 100% Arabica from Central and South America. For lovers of a balanced coffee with tantalising aroma. 1kg coffee beans.",
+        "price": "200.000VND",
+        "image": "zoegas-hazienda.jpeg",
+        "image_url": null,
+        "rating": "5.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Zoegas Dellacasa",
+        "description": "Discover this special Holiday Blend, a blend of balanced and sweet flavours with notes of herbs and maple. A high quality 100% Arabica coffee. Packaging: 190g coffee beans",
+        "price": "200.000VND",
+        "image": "zoegas-dellacasa.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Lavazza Cremaearoma",
+        "description": "'Cremaearoma'is a blend of 85% Arabica & 15% Robusta. For a strong coffee with floral & chocolatey notes. Roasted in Italy. 1kg coffee beans.",
+        "price": "180.000VND",
+        "image": "lavazza-cremaearoma.jpeg",
+        "image_url": null,
+        "rating": "2.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Zoegas Intenzo",
+        "description": "Discover Intenzos's Guatemala Quetzalito coffee beans: a 100% Arabica from the Huehuetenango region in Panama. Enjoy a balanced and liquor-like coffee with notes of milk chocolate. 250g coffee beans.",
+        "price": "200.000VND",
+        "image": "zoegas-intenzo.jpeg",
+        "image_url": null,
+        "rating": "4.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Crema",
+        "description": "These crema coffee beans by Italian coffee-maker crema are a blend of Arabica and Robusta that will offer you a very strong syrupy espresso with slightly spicy notes and a thick crema. 1kg",
+        "price": "150.000VND",
+        "image": "coffee-crema.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Truyền Thống",
+        "description": "100% Arabica from Brazil, Guatemala, India & Mexico. For a strong espresso with fruity notes and a long aftertaste. Roasted in Italy. 250g coffee beans.",
+        "price": "150.000VND",
+        "image": "classic-coffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Espresso ",
+        "description": "Discover the Blend 189 from the Parisian roasting company Espresso. An organic blend of 100% Arabica from Brazil and Honduras. For an Italian-style espresso with notes of caramel and hazelnuts. 200g coffee beans.",
+        "price": "150.000VND",
+        "image": "espresso-coffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+      {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Espresso Machine ",
+        "description": "Espresso Machine is an electric moka pot with 6 or 3 cups capacity and digital control. This espresso maker is equipped with a 24 hour programmable timer: You can program the Moka the day before and you will find your coffee ready when you wake up. You can of course prepare your coffee immediately by using the manual selection.",
+        "price": "490.000VND",
+        "image": "philipsbarista.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+      {
+      "model": "products.product",
+      "pk": 11,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Cà Phê Grinder",
+        "description": "ENJOY THE PERFECT CUP OF FRESH COFFEE ― This Manual Coffee Grinder has a built-in adjustable ceramic burr with over 18 manual grind settings to ensure you have 100% precision & control over the coarseness of your grind",
+        "price": "290.000VND",
+        "image": "boschcoffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Milk Frother",
+        "description":"A light Froth The Aeroccino milk frother can transform milk into a light and velvety foam. You can pour the froth in at the speed you want, to control how it is mixed with your favourite Grand Cru.",
+        "price": "190.000VND",
+        "image": "milk-frother.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    }
+  ]

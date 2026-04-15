@@ -1,0 +1,188 @@
+[
+    {
+      "model": "products.category",
+      "pk": 1,
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans",
+        "image": ""
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 2,
+      "fields": {
+        "name": "Machines",
+        "friendly_name": "Machines",
+        "image": ""
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Lavazza Oro",
+        "description": "Hạt cà phê Lavazza là sự pha trộn giữa cà phê Arabica từ Brazil, được chứng nhận RainForest. Thưởng thức một ly cà phê đậm đà với hương vị tinh tế của ngũ cốc và trái cây khô. 1kg.",
+        "price": 170000.00,
+        "image": "lavazza-oro.jpeg",
+        "image_url": null,
+        "rating": "3.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Intenso",
+        "description": "Hạt cà phê Intenso là sự pha trộn giữa 80% Arabica và 20% Robusta (Colombia, Brazil, Guatemala, Costa Rica). Thích hợp cho một ly espresso đậm đà với lớp bọt kem dày và hương vị cacao. 1kg.",
+        "price": 150000.00,
+        "image": "intenso-coffee.jpeg",
+        "image_url": null,
+        "rating": "4.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Zoegas Hazienda",
+        "description": "Hạt cà phê Hazienda là sự pha trộn giữa 100% Arabica từ Trung và Nam Mỹ. Cho những người yêu thích cà phê cân bằng với hương thơm quyến rũ. 1kg hạt cà phê.",
+        "price": 200000.00,
+        "image": "zoegas-hazienda.jpeg",
+        "image_url": null,
+        "rating": "5.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Zoegas Dellacasa",
+        "description": "Khám phá loại pha trộn đặc biệt này, là sự kết hợp của các hương vị cân bằng và ngọt ngào với những nốt hương thảo mộc và maple. Một loại cà phê 100% Arabica chất lượng cao. Đóng gói: 190g hạt cà phê",
+        "price": 200000.00,
+        "image": "zoegas-dellacasa.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Lavazza Cremaearoma",
+        "description": "'Cremaearoma là sự pha trộn giữa 85% Arabica và 15% Robusta. Cho hương vị cà phê đậm đà với hương hoa và sô cô la. Được rang tại Ý. 1kg hạt cà phê.",
+        "price": 180000.00,
+        "image": "lavazza-cremaearoma.jpeg",
+        "image_url": null,
+        "rating": "2.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": " Cà Phê Zoegas Intenzo",
+        "description": "Khám phá hạt cà phê Intenzo của Guatemala Quetzalito: 100% Arabica từ khu vực Huehuetenango ở Panama. Thưởng thức một ly cà phê cân bằng và có hương vị rượu với những nốt hương sô cô la. 250g hạt cà phê.",
+        "price": 200000.00,
+        "image": "zoegas-intenzo.jpeg",
+        "image_url": null,
+        "rating": "4.00"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Crema",
+        "description": "Những hạt cà phê Crema của nhà sản xuất cà phê Ý Crema là sự pha trộn giữa Arabica và Robusta, mang lại một ly espresso đậm đà với hương vị slightly spicy và lớp crema dày. 1kg",
+        "price": 150000.00,
+        "image": "coffee-crema.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Truyền Thống",
+        "description": "100% Arabica từ Brazil, Guatemala, Ấn Độ và Mexico. Cho một ly espresso đậm đà với hương vị trái cây và dư vị kéo dài. Rang tại Ý. 250g hạt cà phê.",
+        "price": 150000.00,
+        "image": "classic-coffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Cà Phê Espresso ",
+        "description": "Khám phá Blend 189 từ công ty rang cà phê Parisian Espresso. Một sự pha trộn hữu cơ của 100% Arabica từ Brazil và Honduras. Cho một ly espresso kiểu Ý với những nốt hương caramel và hạt dẻ. 200g hạt cà phê.",
+        "price": 150000.00,
+        "image": "espresso-coffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+      {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Espresso Machine ",
+        "description": "Máy pha cà phê Espresso là một chiếc moka điện với dung tích 6 hoặc 3 cốc và điều khiển số. Máy pha cà phê này được trang bị đồng hồ hẹn giờ có thể lập trình trong 24 giờ: Bạn có thể lập trình cho Moka vào ngày hôm trước và sẽ tìm thấy cà phê của bạn sẵn sàng khi bạn thức dậy. Tất nhiên, bạn có thể chuẩn bị cà phê ngay lập tức bằng cách sử dụng lựa chọn thủ công.",
+        "price": 490000.00,
+        "image": "philipsbarista.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+      {
+      "model": "products.product",
+      "pk": 11,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Cà Phê Grinder",
+        "description": "Thưởng thức ly cà phê tươi ngon nhất ― Máy xay cà phê thủ công này có bộ đĩa xay gốm điều chỉnh được với hơn 18 cấp độ xay thủ công để đảm bảo bạn có 100% độ chính xác & kiểm soát độ nhuyễn của hạt cà phê",
+        "price": 290000.00,
+        "image": "boschcoffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Milk Frother",
+        "description":"Máy tạo bọt sữa Aeroccino có thể biến đổi sữa thành một lớp bọt nhẹ và mịn màng. Bạn có thể rót bọt vào với tốc độ bạn muốn, để kiểm soát cách nó được trộn với Grand Cru yêu thích của bạn.",
+        "price": 190000.00,
+        "image": "milk-frother.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    }
+  ]

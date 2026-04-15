@@ -1,0 +1,91 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "Beans",
+        "friendly_name": "Beans"
+      }
+    },
+      {
+      "pk": 10,
+      "model": "products.category",
+      "fields": {
+        "name": "Máy Pha Cà Phê",
+        
+        "friendly_name": "Machines"
+      }
+    },
+      {
+      "pk": 11,
+      "model": "products.category",
+      "fields": {
+        "name": "Máy Pha Cà Phê",
+        "friendly_name": "Machines"
+      }
+      }
+  ]

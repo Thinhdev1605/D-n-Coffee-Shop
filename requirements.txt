@@ -13,7 +13,9 @@ django-crispy-forms==2.6
 django-environ==0.13.0
 django-phonenumber-field==8.4.0
 djangorestframework==3.17.1
+gunicorn==25.3.0
 idna==3.11
+packaging==26.1
 phonenumbers==9.0.27
 pillow==12.1.1
 psycopg2-binary==2.9.11
